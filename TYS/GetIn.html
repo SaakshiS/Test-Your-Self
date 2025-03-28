@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Option Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="try">
+    <div class="menu">
+        <div class="toggle">
+            <ion-icon name="add-outline">
+        </div>
+        <li style="--i:0;">
+            <div class="ionn">
+            <a href="index.html">
+                <ion-icon name="home-outline"></ion-icon>
+            </a></div>
+        </li>
+        <li style="--i:1;">
+            <a href="welcomespeedtest.html">Speed Test</a>
+        </li>
+        <li style="--i:2;">
+            <a href="welcomeword.html">Word Scramble</a>
+        </li>
+        <li style="--i:3;">
+            <div class="ionn">
+            <a href="feedback.html">
+                <ion-icon name="mail-outline"></ion-icon>
+            </a></div>
+        </li>
+        <li style="--i:4;">
+            <a href="welcomequiz.html">Quiz Game</a>
+        </li>
+        <li style="--i:5;">
+            <a href="welcomememory.html">Memory Card</a>
+        </li>
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    let toggle = document.querySelector(' .toggle');
+    let menu = document.querySelector(' .menu');
+    toggle.onclick = function () {
+        menu.classList.toggle('active')
+    }
+</script>
+<div class="footer">
+    <p>Copyright reserved &copy; by TYS</p>
+  </div>
+</body>
+</html>

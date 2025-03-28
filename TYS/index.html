@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video class="back_video" autoplay muted loop>
+            <source src="video/vid2.mp4" type="video/mp4">
+        </video>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <div class="btn">
+            <button class="btn-1"><a href="GetIn.html">GET IN</a></button>
+            <button class="btn-2"><a href="explore.html">EXPLORE</a></button>
+        </div>
+    </div>
+    <div class="textboxx">
+        <h1><span class="auto-input"></span></h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: ["Aspire..!", "Inspire..!"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <div class="footer">
+        <p>Copyright reserved &copy; by TYS</p>
+      </div>
+</body>
+</html>
